@@ -21,8 +21,6 @@ trait pkgconfig
                 '--with-pic ' .
                 '--prefix=' . BUILD_ROOT_PATH . ' ' .
                 '--without-sysroot ' .
-                '--without-system-include-path ' .
-                '--without-system-library-path ' .
                 '--without-pc-path'
             )
             ->exec('make clean')
