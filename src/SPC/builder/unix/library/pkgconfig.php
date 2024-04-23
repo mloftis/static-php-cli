@@ -17,7 +17,6 @@ trait pkgconfig
                 './configure ' .
                 '--disable-shared ' .
                 '--enable-static ' .
-                '--with-internal-glib ' .
                 '--disable-host-tool ' .
                 '--with-pic ' .
                 '--prefix=' . BUILD_ROOT_PATH . ' ' .
